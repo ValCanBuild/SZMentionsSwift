@@ -283,6 +283,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DB0403B31C44A017000904DB;
@@ -352,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/scripts/swiftformat\" \"${SRCROOT}\"\n";
+			shellScript = "# \"${SRCROOT}/scripts/swiftformat\" \"${SRCROOT}\"\n";
 		};
 		DB83882C22467D5F00F9D8C8 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
